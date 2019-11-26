@@ -1,3 +1,7 @@
+
+.DS_Store
+TAGS
+
 # Prerequisites
 *.d
 
@@ -15,6 +19,7 @@
 *.so
 *.dylib
 *.dll
+*.pyc
 
 # Fortran module files
 *.mod
@@ -30,3 +35,18 @@
 *.exe
 *.out
 *.app
+
+# SQL DB files
+*.log
+*.db
+
+# test
+test
+*_test
+*_test
+kvdaemon
+kvservice
+*.sqlite3
+*.sqlite3-journal
+*~
+*pids
