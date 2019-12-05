@@ -1,0 +1,323 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PRO",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"PROJ",
+				"PROJECT_BINARY_DIR\tbuiltin"
+			],
+			[
+				"T",
+				"Tutorial"
+			],
+			[
+				"get_",
+				"get_value_size"
+			],
+			[
+				"max",
+				"MAX_VALUE_SIZE"
+			],
+			[
+				"MAX",
+				"MAX_VALUE_SIZE"
+			],
+			[
+				"int",
+				"int64_t"
+			],
+			[
+				"len",
+				"length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{\n    \"build_systems\":\n    [\n    ],\n    \"folders\":\n    [\n        {\n            \"path\": \".\"\n        }\n    ],\n    \"settings\":\n    {\n        \"cmake\":\n        {\n            \"build_folder\": \"${project_path}/build\"\n        }\n    }\n}\n",
+			"file": "CatHerder.sublime-project",
+			"file_size": 660,
+			"file_write_time": 132199926094998516,
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Build: New Build System"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/scheong/devel/test\t/CatHerder"
+	],
+	"file_history":
+	[
+		"/Users/scheong/devel/CatHerder/CatHerder.sublime-project",
+		"/Users/scheong/devel/CatHerder/build.sh",
+		"/Users/scheong/devel/cmake_test/build.sh",
+		"/Users/scheong/devel/cmake_test/Tutorial.sublime-project",
+		"/Users/scheong/Library/Application Support/Sublime Text 3/Packages/User/cmake.sublime-build",
+		"/Users/scheong/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/scheong/devel/cmake_test/test.sublime-project",
+		"/Users/scheong/devel/cmake_test/.sublime-project",
+		"/Users/scheong/devel/msgpack-c/msgpack.pc",
+		"/Users/scheong/devel/Decafe/.gitignore",
+		"/Users/scheong/devel/cs739_2019/.gitignore",
+		"/Users/scheong/devel/cs739_2019/proj1/.gitignore",
+		"/Users/scheong/devel/cs739_2019/proj1/src/server.cpp",
+		"/Users/scheong/devel/cs739_2019/proj1/src/datastore.h",
+		"/Users/scheong/devel/cs739_2019/proj1/src/message.h",
+		"/Users/scheong/devel/cs739_2019/proj1/src/datastore.cpp",
+		"/Users/scheong/devel/sparse_rep/activity/OMP.m",
+		"/Users/scheong/OneDrive/CS532/Project/notes.txt",
+		"/Users/scheong/Desktop/logs/MasterService_05-23-2019.log",
+		"/Users/scheong/Desktop/MasterService_06-20-2019.log",
+		"/Users/scheong/devel/cs838_2019/stage_1/data/etc/titles.txt",
+		"/Users/scheong/Desktop/untitled folder/MasterService_03-04-2019.log",
+		"/Users/scheong/Downloads/MasterService_03-04-2019.log",
+		"/Users/scheong/Downloads/MasterService_02-28-2019.log",
+		"/Users/scheong/devel/cs838_2019/stage_1/data/etc/words.txt",
+		"/Users/scheong/Documents/NetGear POE",
+		"/Users/scheong/Documents/colorize/doc/report/final.tex",
+		"/Users/scheong/Documents/PoissonEditing/.gitignore",
+		"/Applications/VLC.app/Contents/MacOS/share/lua/playlist/youtube.lua"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CatHerder.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CMakeLists.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMake/CMake.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "CatHerder (OSX)",
+	"project": "CatHerder.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/devel/CatHerder/CatHerder.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

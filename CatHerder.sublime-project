@@ -1,0 +1,52 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "CatHerder (OSX)",
+			"shell_cmd": "make -j12",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j12 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j12 rebuild_cache"
+				},
+				{
+					"name": "test",
+					"shell_cmd": "make -j12 test"
+				},
+				{
+					"name": "catherder",
+					"shell_cmd": "make -j12 catherder"
+				},
+				{
+					"name": "hello",
+					"shell_cmd": "make -j12 hello"
+				},
+				{
+					"name": "mymath",
+					"shell_cmd": "make -j12 mymath"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build"
+		}
+	}
+}
