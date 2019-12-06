@@ -128,8 +128,10 @@ int debug::make_prefix(char *buff, int size, const char *category) {
 	nowtime = tv.tv_sec;
 	nowtm = localtime(&nowtime);
 	
-	strftime(tmbuf, sizeof tmbuf, "[%Y%m%d]:[%H%M%S", nowtm);
-
+	//strftime(tmbuf, sizeof tmbuf, "[%Y%m%d]:[%H%M%S", nowtm);
+	
+	strftime(tmbuf, sizeof tmbuf, "[%H%M%S", nowtm);
+	
 	if (has_scope_) {
 		return snprintf(buff, size, "[%s]:%s.%06ld][%d][%s]:", category, tmbuf, (long) tv.tv_usec, pid, scope_.c_str());
 	}
