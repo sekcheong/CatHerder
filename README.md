@@ -20,4 +20,3 @@ Light weight paxos
     libavahi-compat-libdnssd-dev
     libavahi-core-dev 
     libavahi-glib-dev
->>>>>>> 41cd9c1c62df54c83837b3a8acbdca331f5295f8
