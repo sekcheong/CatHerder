@@ -1,9 +1,8 @@
-# Project 2 Light weight Raft
+# CatHerde
 
-CS737 Distributed Systems Fall 2019
+A self contained lightweight Raft implementation suitable for IoT devices
 
 # Setup
-
     export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH 
 
 # Instructions
