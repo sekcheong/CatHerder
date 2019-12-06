@@ -1,14 +1,12 @@
-<<<<<<< HEAD
-# Project 2 Light weight paxos 
+# CatHerde
 
-CS737 Distributed Systems Fall 2019
+A self contained lightweight Raft implementation suitable for IoT devices
 
 # Setup
-
     export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH 
 
 # Instructions
-=======
+
 # CatHerder
 Light weight paxos 
 ## Setup 
@@ -21,4 +19,3 @@ Light weight paxos
     libavahi-compat-libdnssd-dev
     libavahi-core-dev 
     libavahi-glib-dev
->>>>>>> 41cd9c1c62df54c83837b3a8acbdca331f5295f8
