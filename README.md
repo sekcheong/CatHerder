@@ -6,7 +6,7 @@ A self contained lightweight Raft implementation suitable for IoT devices
     export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH 
 
 # Instructions
-=======
+
 # CatHerder
 Light weight paxos 
 ## Setup 
