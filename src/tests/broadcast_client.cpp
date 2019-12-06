@@ -17,6 +17,7 @@ typedef struct message
     uint32_t port;
 } message_t;
 
+
 int main(int argc, char **argv) {
     sockaddr_in si_me, si_other;
     int s;   
@@ -41,9 +42,9 @@ int main(int argc, char **argv) {
         message_t msg;
         unsigned slen=sizeof(sockaddr);
         recvfrom(s, (void*) &msg, sizeof(msg), 0, (sockaddr *)&si_other, &slen);
-        printf("server id=%d ", msg.id);
+        printf("server id=%d \n", msg.id);
         printf("server ip=%d.%d.%d.%d\n", (msg.ip & 0xff000000) >> 24, (msg.ip & 0x00ff0000) >> 16, (msg.ip & 0x0000ff00) >> 8, (msg.ip & 0x000000ff));
-        printf("server port=%d", msg.port);
+        printf("server port=%d\n", msg.port);
     } 
 }
 
