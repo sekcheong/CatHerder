@@ -25,20 +25,20 @@
 					"shell_cmd": "make -j12 dbgview"
 				},
 				{
-					"name": "debug",
-					"shell_cmd": "make -j12 debug"
+					"name": "cat_diag",
+					"shell_cmd": "make -j12 cat_diag"
 				},
 				{
-					"name": "sqlite",
-					"shell_cmd": "make -j12 sqlite"
+					"name": "cat_sqlite",
+					"shell_cmd": "make -j12 cat_sqlite"
 				},
 				{
-					"name": "kvs",
-					"shell_cmd": "make -j12 kvs"
+					"name": "cat_kvs",
+					"shell_cmd": "make -j12 cat_kvs"
 				},
 				{
-					"name": "rpc",
-					"shell_cmd": "make -j12 rpc"
+					"name": "cat_rpc",
+					"shell_cmd": "make -j12 cat_rpc"
 				},
 				{
 					"name": "test_dbg",

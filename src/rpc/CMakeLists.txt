@@ -1,1 +1,1 @@
-add_library(rpc rpc_server.cpp rpc_client.cpp)
+add_library(cat_rpc rpc_server.cpp rpc_client.cpp)

@@ -1,5 +1,5 @@
 add_subdirectory(math)
-add_subdirectory(debug)
+add_subdirectory(diagnostic)
 add_subdirectory(sqlite)
 add_subdirectory(kvs)
 add_subdirectory(rpc)

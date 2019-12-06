@@ -1,1 +1,1 @@
-add_library(sqlite sqlite3.c)
+add_library(cat_sqlite sqlite3.c)
