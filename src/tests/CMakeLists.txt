@@ -14,3 +14,9 @@ add_executable(test_rapidjson test_rapidjson.cpp)
 
 add_executable(test_dbg test_dbg.cpp)
 target_link_libraries(test_dbg PUBLIC cat_diag)
+
+add_executable(broadcast_server broadcast_server.cpp)
+target_link_libraries(broadcast_server PUBLIC cat_diag)
+
+add_executable(broadcast_client broadcast_client.cpp)
+target_link_libraries(broadcast_client PUBLIC cat_diag)

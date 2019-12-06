@@ -37,12 +37,16 @@
 					"shell_cmd": "make -j12 cat_rpc"
 				},
 				{
-					"name": "test_dbg",
-					"shell_cmd": "make -j12 test_dbg"
+					"name": "broadcast_client",
+					"shell_cmd": "make -j12 broadcast_client"
 				},
 				{
-					"name": "test_rpc_server",
-					"shell_cmd": "make -j12 test_rpc_server"
+					"name": "broadcast_server",
+					"shell_cmd": "make -j12 broadcast_server"
+				},
+				{
+					"name": "test_dbg",
+					"shell_cmd": "make -j12 test_dbg"
 				},
 				{
 					"name": "test_rapidjson",
@@ -51,6 +55,10 @@
 				{
 					"name": "test_rpc_client",
 					"shell_cmd": "make -j12 test_rpc_client"
+				},
+				{
+					"name": "test_rpc_server",
+					"shell_cmd": "make -j12 test_rpc_server"
 				}
 			],
 			"working_dir": "${project_path}/build"
