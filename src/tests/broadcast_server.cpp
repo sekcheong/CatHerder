@@ -69,8 +69,8 @@ int main(int argc, char **argv) {
     msg.port = 50739;
     msg.id = 123;
     
-    d.info("ip=%ed", msg.ip);
-    
+    d.info("ip=%d", msg.ip);
+
     ret = sendto(sock, (void*) &msg, sizeof(message_t), 0, (struct sockaddr*)&broadcastAddr, sizeof(broadcastAddr));
     if (ret < 0) {
         d.error("Error: Could not open send broadcast.");
