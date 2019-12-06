@@ -5,6 +5,13 @@
 #include <arpa/inet.h>
 #include "debug.h"
 
+void broadcast() {
+    //server id
+    //ip address
+    //port 
+    
+}
+
 int main(int argc, char **argv) {
     cat::debug d;
     int sock = socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP);

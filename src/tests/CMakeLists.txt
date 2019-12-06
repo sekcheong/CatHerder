@@ -20,3 +20,5 @@ target_link_libraries(broadcast_server PUBLIC cat_diag)
 
 add_executable(broadcast_client broadcast_client.cpp)
 target_link_libraries(broadcast_client PUBLIC cat_diag)
+
+add_executable(get_server_ip get_server_ip.cpp)

@@ -37,6 +37,10 @@
 					"shell_cmd": "make -j12 cat_rpc"
 				},
 				{
+					"name": "get_server_ip",
+					"shell_cmd": "make -j12 get_server_ip"
+				},
+				{
 					"name": "broadcast_client",
 					"shell_cmd": "make -j12 broadcast_client"
 				},
