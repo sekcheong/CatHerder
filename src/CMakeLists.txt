@@ -1,4 +1,3 @@
-add_subdirectory(math)
 add_subdirectory(diagnostic)
 add_subdirectory(sqlite)
 add_subdirectory(kvs)
@@ -14,6 +13,6 @@ include_directories(
 
 link_libraries(Threads::Threads)
 
-message( ${PROJECT_SOURCE_DIR} )
+# message( ${PROJECT_SOURCE_DIR} )
 # message( ${CMAKE_CURRENT_SOURCE_DIR} )
 

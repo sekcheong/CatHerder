@@ -17,10 +17,6 @@
 					"shell_cmd": "make -j12 rebuild_cache"
 				},
 				{
-					"name": "mymath",
-					"shell_cmd": "make -j12 mymath"
-				},
-				{
 					"name": "dbgview",
 					"shell_cmd": "make -j12 dbgview"
 				},
