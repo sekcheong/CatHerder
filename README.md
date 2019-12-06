@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Project 2 Light weight paxos 
+# Project 2 Light weight Raft
 
 CS737 Distributed Systems Fall 2019
 
