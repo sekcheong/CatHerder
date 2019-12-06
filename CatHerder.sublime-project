@@ -17,20 +17,12 @@
 					"shell_cmd": "make -j12 rebuild_cache"
 				},
 				{
-					"name": "test",
-					"shell_cmd": "make -j12 test"
-				},
-				{
-					"name": "catherder",
-					"shell_cmd": "make -j12 catherder"
-				},
-				{
-					"name": "hello",
-					"shell_cmd": "make -j12 hello"
-				},
-				{
 					"name": "mymath",
 					"shell_cmd": "make -j12 mymath"
+				},
+				{
+					"name": "dbgview",
+					"shell_cmd": "make -j12 dbgview"
 				},
 				{
 					"name": "debug",
@@ -43,6 +35,26 @@
 				{
 					"name": "kvs",
 					"shell_cmd": "make -j12 kvs"
+				},
+				{
+					"name": "rpc",
+					"shell_cmd": "make -j12 rpc"
+				},
+				{
+					"name": "test_dbg",
+					"shell_cmd": "make -j12 test_dbg"
+				},
+				{
+					"name": "test_rpc_server",
+					"shell_cmd": "make -j12 test_rpc_server"
+				},
+				{
+					"name": "test_rapidjson",
+					"shell_cmd": "make -j12 test_rapidjson"
+				},
+				{
+					"name": "test_rpc_client",
+					"shell_cmd": "make -j12 test_rpc_client"
 				}
 			],
 			"working_dir": "${project_path}/build"

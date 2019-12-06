@@ -12,4 +12,15 @@ void debug_print(const char *fmt, ...);
 #define DEBUG_PRINT(format, ...)
 #endif //_DEBUG
 
+
+class debug {
+public:
+	debug();
+	void info(const char *fmt, ...);
+	void error(const char *fmt, ...);
+	void warning(const char *fmt, ...);
+	void die(const char *fmt, ...);
+	~debug();
+};
+
 #endif
